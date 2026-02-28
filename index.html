@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flappy Cookie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <h1>🍪 Flappy Cookie</h1>
+    <p class="instructions">Press <kbd>Space</kbd> or click/tap to flap. Avoid milk pipes!</p>
+    <canvas id="game" width="420" height="640" aria-label="Flappy Cookie Game"></canvas>
+    <div class="hud">
+      <p>Score: <span id="score">0</span></p>
+      <p>Best: <span id="best">0</span></p>
+    </div>
+    <button id="restart" type="button">Restart</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
